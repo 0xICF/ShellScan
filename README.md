@@ -100,5 +100,7 @@ GPL v3
 
 References
 -
-http://0xicf.wordpress.com
+http://0xicf.wordpress.com/tools/shellscan/
+
+https://github.com/0xICF/ShellScan
 
