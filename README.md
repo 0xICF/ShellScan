@@ -12,7 +12,7 @@ ShellScan developed for research purposes only, It is strongly recommended that 
 
 Download
 -
-http://0xicf.wordpress.com
+https://github.com/0xICF/ShellScan
 
 
 
