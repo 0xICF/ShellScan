@@ -25,13 +25,16 @@ How to Use
 
 
 
-ShellScan will scan a list of hosts with a list of CGIs while trying to exploit the ShellShock vulnerability with different methods and payloads (CVE-2014-6271, CVE-2014-6278)
-
 
 Example:
 
 $ ./ShellScan.py config/host.txt config/cgi.txt
 
+
+About ShellScan
+-
+
+ShellScan will scan a list of hosts with a list of CGIs while trying to exploit the ShellShock vulnerability with different methods and payloads (CVE-2014-6271, CVE-2014-6278)
 
 ShellScan tool will perform few different ShellShock vulnerability tests:
 
@@ -40,6 +43,8 @@ Test 1: uses the command sleep in different headers and check differences betwee
 Test 2: uses the command ping -cX 127.0.0.1 and check differences between delays. 
 
 Test 3: try to print a string and get it (causes a lot of False Positives)
+
+
 
 
 
