@@ -58,6 +58,24 @@ TIP: ShellScan can cause some False positives so it is better to retest the poss
 
 
 
+Output CSV file
+===============
+Columns:
++ WARNING : It is set to True if the delay of the request is more than the introduced with the command (sleep 9 == delay more than 9 s)
++ VULNERABLE : It is set to True if Warning is True and the difference between the delays of the normal request and the "shellshock" one is high. 
++ ERROR : It is set to True if an exception happens (usually Timeout or an invalid CGI or Host)
++ The other columns are almost self explanatory
+
+Useful stuff
+============
+
+If a 100K lines CSV is a bit Long, you can search quickly for Vulnerable lines with the command:
+$ grep '^[^,]*,[^,]*,True' <output.csv>
+
+Or Warning = True lines with:
+$ grep '^[^,]*,[^,]*,[^,]*,[^,]*,True' <output.csv>
+
+
 
 WARNING
 -
