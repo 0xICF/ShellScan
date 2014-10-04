@@ -28,7 +28,7 @@ ShellScan will scan a list of hosts with a list of CGIs while trying to exploit 
 
 Example:
 
-ShellScan.py
+$ ./ShellScan.py config/host.txt config/cgi.txt
 
 
 WARNING
@@ -46,7 +46,7 @@ October 03, 2014 - ShellScan v1.0 Beta
 Screenshots
 - 
 
-![Alt text](https://0xicf.files.wordpress.com/2014/10/shellshock.jpg "ShellScan - A simple Shellshock Vulnerability Scanner ")
+![Alt text](https://0xicf.files.wordpress.com/2014/10/shellscan_run.png "ShellScan is running- A simple Shellshock Vulnerability Scanner ")
 
 
 
