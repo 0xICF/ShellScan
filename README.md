@@ -33,7 +33,7 @@ $ ./ShellScan.py config/host.txt config/cgi.txt
 
 ShellScan tool will perform few different ShellShock vulnerability tests:
 
-Test 1: uses the command sleep in different headers and check differences between delays to check the vulnerability. 
+Test 1: uses the command sleep in different headers and check differences between delaysß. 
 
 Test 2: uses the command ping -cX 127.0.0.1 and check differences between delays. 
 
@@ -63,7 +63,9 @@ Change log
 -
 October 03, 2014 - ShellScan v1.0 Beta
 
-ShellScan is currently not the most portable code but... it works. Any improvement is always welcome.
+ShellScan is currently not the most portable code but... it works. 
+
+Any improvement is always welcome.
 
 
 Screenshots
