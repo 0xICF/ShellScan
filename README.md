@@ -31,6 +31,27 @@ Example:
 $ ./ShellScan.py config/host.txt config/cgi.txt
 
 
+ShellScan tool will perform few different ShellShock vulnerability tests:
+
+Test 1: uses the command sleep in different headers and check differences between delays to check the vulnerability. 
+
+Test 2: uses the command ping -cX 127.0.0.1 and check differences between delays. 
+
+Test 3: try to print a string and get it (causes a lot of False Positives)
+
+
+
+Configuration
+-
+The ShellScan tool is receives a host list and a cgi list (see an example files at “config” directory) and the number of threads.
+
+Note: While using threads, It uses only 1 thread per host to avoid time differences caused by multiple requests at the same time.
+
+TIP: ShellScan can cause some False positives so it is better to retest the possible positives if having an issues.
+
+
+
+
 WARNING
 -
 ShellScan allows a malicious attacker to execute a remote commands on a vulnerable target system.
@@ -41,6 +62,8 @@ ShellScan allows a malicious attacker to execute a remote commands on a vulnerab
 Change log
 -
 October 03, 2014 - ShellScan v1.0 Beta
+
+ShellScan is currently not the most portable code but... it works. Any improvement is always welcome.
 
 
 Screenshots
