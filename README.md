@@ -20,7 +20,7 @@ How to Use
 -
 
 1. Define a list of host to scan in /config/host.txt
-2. Define a list of cCGIs in /config/cgi.txt
+2. Define a list of CGIs in /config/cgi.txt
 3. Run ShellScan.py 
 
 ShellScan will scan a list of hosts with a list of CGIs while trying to exploit the ShellShock vulnerability with different methods and payloads (CVE-2014-6271, CVE-2014-6278)
