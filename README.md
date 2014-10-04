@@ -4,7 +4,7 @@
 ShellScan
 ============
 ShellScan - A simple Shellshock Vulnerability Scanner in python allow cyber security researchers to explore and discover new application and systems that vulnerable to the ShellShock exploit.
-ShellScan supports different BASH vulnerabilities: CVE-2014-6271 and CVE-2014-6278 to be test by cyber security researchers in order to explore and discover new applications and systems that vulnerable to Shellshock exploit.
+ShellScan supports different BASH vulnerabilities: CVE-2014-6271 and CVE-2014-6278 to be tested by cyber security researchers in order to explore and discover new applications and systems that vulnerable to Shellshock exploit.
 
 ShellScan developed for research purposes only, It is strongly recommended that you do not use this tool for illegal purposes. 
 
