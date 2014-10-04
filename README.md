@@ -97,6 +97,8 @@ BlackPian0
 License
 -
 GPL v3
+CREDIT: This tool is based on Mario Rivas Vivar's great work!
+
 
 References
 -
